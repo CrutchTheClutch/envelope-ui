@@ -50,7 +50,7 @@ jobs:
 
       - name: Upload Code Coverage
         id: codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         if: ${{ github.ref == 'refs/heads/main' && steps.test.outcome == 'success' }}
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
