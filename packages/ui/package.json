@@ -16,7 +16,7 @@
     "@clutchd/twx": "workspace:*",
     "@radix-ui/react-primitive": "2.0.1",
     "@radix-ui/react-separator": "1.1.1",
-    "next": "15.1.4",
+    "next": "15.2.1",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
